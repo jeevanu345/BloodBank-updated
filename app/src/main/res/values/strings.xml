@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string-array name="sex_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="division_options">
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Bengaluru</item>
+        <item>Hyderabad</item>
+        <item>Ahmedabad</item>
+        <item>Chennai</item>
+        <item>Kolkata</item>
+        <item>Pune</item>
+        <item>Jaipur</item>
+        <item>Surat</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Nagpur</item>
+        <item>Indore</item>
+    </string-array>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redbg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- Back Button (outside red box) -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:src="@drawable/arrowback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Back button"
+            android:layout_gravity="start"/>
+
+        <!-- Red background only for text content -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/white"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/fullName"
+                android:textSize="18sp"
+                android:textColor="#C30010"
+                android:text="Full Name: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:id="@+id/gender"
+                android:textSize="18sp"
+                android:textColor="#C30010"
+                android:text="Gender: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/division"
+                android:textSize="18sp"
+                android:textColor="#C30010"
+                android:text="Division: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/bloodGroup"
+                android:textSize="18sp"
+                android:textColor="#C30010"
+                android:text="Blood Group: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:textSize="18sp"
+                android:textColor="#C30010"
+                android:text="Address: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/contact"
+                android:textSize="18sp"
+                android:textColor="#C30010"
+                android:text="Contact: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/email"
+                android:textSize="18sp"
+                android:textColor="#C30010"
+                android:text="Email: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

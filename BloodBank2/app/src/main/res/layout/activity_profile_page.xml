@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redbg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:src="@drawable/arrowback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Back button"
+            android:layout_gravity="start"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Full Name -->
+        <TextView
+            android:id="@+id/labelFullName"
+            android:text="Full Name:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fullName"
+            android:text="John Doe"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Gender -->
+        <TextView
+            android:id="@+id/labelGender"
+            android:text="Gender:"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/gender"
+            android:text="Male"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Age -->
+        <TextView
+            android:id="@+id/labelAge"
+            android:text="Age:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/age"
+            android:text="30"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Blood Group -->
+        <TextView
+            android:id="@+id/labelBloodGroup"
+            android:text="Blood Group:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/bloodGroup"
+            android:text="O+"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/labelAddress"
+            android:text="Address:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/address"
+            android:text="123 Red Cross Street, Cityname"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Contact -->
+        <TextView
+            android:id="@+id/labelContact"
+            android:text="Contact Number:"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/contact"
+            android:text="0123456789"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/labelEmail"
+            android:text="Email:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/email"
+            android:text="john@example.com"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Edit Button -->
+        <Button
+            android:id="@+id/btnEdit"
+            android:text="Edit Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C62828"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

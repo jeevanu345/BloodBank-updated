@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/redbg"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/homeIcon"
+        android:src="@drawable/ic_home"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="start"
+        android:contentDescription="Home icon"
+        app:tint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/bloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Choose Blood Group"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC" />
+
+    <EditText
+        android:id="@+id/division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Choose Division"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC" />
+
+    <Button
+        android:id="@+id/btnFindDonor"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#D32F2F"/>
+</LinearLayout>
