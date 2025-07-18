@@ -28,19 +28,6 @@ This project was born from a simple idea: to use technology to bridge a critical
 
 ---
 
-## Screenshots
-
-| Welcome Screen | Login Screen | Home Dashboard |
-| :----------: | :---------: | :--------------: |
-| ![Welcome](https://via.placeholder.com/250x500.png?text=BloodBank+Welcome) | ![Login](https://via.placeholder.com/250x500.png?text=Login+Screen) | ![Home](https://via.placeholder.com/250x500.png?text=Home+Dashboard) |
-
-| Donor Search | Donor Profile | Map View |
-| :--------------: | :-----------: | :------: |
-| ![Search](https://via.placeholder.com/250x500.png?text=Donor+Search) | ![Profile](https://via.placeholder.com/250x500.png?text=Donor+Profile) | ![Map](https://via.placeholder.com/250x500.png?text=Map+View) |
-
-
----
-
 ## Tech Stack & Architecture
 
 This project is built using modern Android development tools and follows the recommended architecture patterns.
